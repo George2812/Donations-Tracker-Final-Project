@@ -1,4 +1,4 @@
-<%@page import="java.sql.*" %>
+
 
 
 <html>
@@ -11,25 +11,25 @@
     </head>
 
 	<body>
-		<h4 style="text-align:center">Insert your personal details and amount and then click submit</h3>
+		<h4 style="text-align:center">Insert your personal details and amount and then click submit</h4>
 		<br>
 		<br>
 		<br>
-		<!--Create Donator's form table and submit button -->
+		<!--Create Donator's registration and submit button -->
 	
-				<form action="Donations" method="GET">
+				<form action="./Donations" method="POST">
 				<table style="background-color:skyblue;padding: 15px;">
 				<tr>
 				<td>First Name</td>
-				<td><input type="text" id="name" name="First Name" /></td>
+				<td><input type="text" id="name" name="Name" /></td>
 				</tr>
 				<tr>
 				<td>Last Name</td>
-				<td><input type="text" id="lname" name="Last Name" /></td>
+				<td><input type="text" id="sname" name="Surname" /></td>
 				</tr>
 				<tr>
 				<td>Amount</td>
-				<td><input type="text" id="amount" name="Amount" /></td>
+				<td><input type="number" id="amount" name="Amount" /></td>
 				</tr>
 				<tr>
 				<td>Currency</td>

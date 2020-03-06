@@ -1,5 +1,5 @@
 
-<%@page import="java.sql.*" %>
+
 
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
 
 
 	<body>
-
+			<!-Header and Buttons for Creation and Data -->
 		<h3 style="text-align:center">Charity Donations and Tracker </h3>
 		<p style="text-align:center;margin-top:20px;">Please press Create Button to create a new donation or 
    		data button to track your donation.

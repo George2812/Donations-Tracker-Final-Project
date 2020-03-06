@@ -1,3 +1,6 @@
+//Create the class Donator
+
+package Dialynas;
 
 public class Donator {
 	
@@ -5,17 +8,23 @@ public class Donator {
 	private String name,surname,currency;
 	private double amount;
 	
+	
 	//Constructor 
-	public Donator(String name, String surname, String currency, double amount) {
+	public Donator(String name, String surname, double amount, String currency) {
+		
 		this.name = name;
 		this.surname = surname;
-		this.currency = currency;
 		this.amount = amount;
+		this.currency = currency;
 	}
 
+	
 	public String getName() {
 		return name;
 	}
+
+	
+
 
 	public void setName(String name) {
 		this.name = name;
